@@ -1,0 +1,44 @@
+.hobby {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3em 1.3em;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+.hobby h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 2rem -2px 2rem 0;
+  color: white;
+}
+.icon {
+  width: 5rem;
+  height: 5rem;
+  border: 5px solid black;
+  background-color: white;
+  margin-bottom: 1rem;
+  display: flex;
+  transform: rotate(45deg);
+}
+.icon i {
+  color: black;
+  font-size: 3rem;
+  margin: auto;
+  transform: rotate(-45deg);
+}
+@media (min-width: 768px) {
+  .hobby {
+    margin: 4em 2.9em;
+  }
+}
+@media (min-width: 1024px) {
+  .icon {
+    width: 6em;
+    height: 6em;
+  }
+}

@@ -1,0 +1,65 @@
+.heading {
+  text-align: center;
+  margin-top: 4em;
+  margin-bottom: 2em;
+}
+.heading h1 {
+  font-size: 3.3rem;
+  color: rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+  font-weight: 300;
+  position: relative;
+  margin-bottom: 1rem;
+}
+.heading h1::before,
+.heading h1::after {
+  content: "";
+  position: absolute;
+  bottom: -0.3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.883);
+}
+.heading h1::before {
+  width: 12rem;
+  height: 5px;
+  border-radius: 0.8rem;
+}
+.heading h1::after {
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 100%;
+  bottom: -1rem;
+}
+.heading h6 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: white;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 768px) {
+  .heading h1 {
+    font-size: 2rem;
+  }
+  .heading h6 {
+    font-size: 1.3rem;
+    letter-spacing: 1.2px;
+  }
+  .heading h1::before {
+    width: 8rem;
+    height: 4px;
+    border-radius: 0.8rem;
+  }
+  .heading h1::after {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 100%;
+    bottom: -0.75rem;
+  }
+}
+@media (min-width: 1024px) {
+  .heading {
+    margin: 6em auto 3em;
+  }
+}

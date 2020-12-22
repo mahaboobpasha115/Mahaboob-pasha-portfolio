@@ -1,0 +1,32 @@
+.landing {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 2em;
+}
+.landing h1 {
+  font-size: 5em;
+  font-family: "Satisfy", cursive;
+  background: linear-gradient(to top, #ffe838, #fd57bf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  user-select: none;
+}
+.landing h6 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: white;
+}
+@media (min-width: 1024px) {
+  .landing h1 {
+    font-size: 8em;
+  }
+  .landing h6 {
+    font-size: 2.5em;
+  }
+}

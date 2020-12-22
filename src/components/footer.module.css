@@ -1,0 +1,56 @@
+.copyright {
+  width: 100%;
+  text-align: center;
+  background-color: #16162d;
+  padding: 2rem 0;
+  position: relative;
+  max-width: 1440px;
+  margin: 5em auto 0;
+}
+.up {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  background-color: #eee;
+  top: -2.2rem;
+  right: 5rem;
+  border-radius: 100%;
+  display: flex;
+  animation: pulse 2s infinite;
+}
+.up i {
+  color: #16162d;
+  font-size: 2.3rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+.copyright p {
+  font-size: 1.4rem;
+  color: white;
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);
+  }
+  70% {
+    box-shadow: 0 0 0 2rem rgba(253, 87, 191, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);
+  }
+}
+@media (max-width: 420px) {
+  .up {
+    width: 4rem;
+    height: 4rem;
+    top: -2rem;
+    right: 1rem;
+  }
+  .up i {
+    bottom: 1.1rem;
+    right: 1.1rem;
+  }
+  .copyright p {
+  }
+}
