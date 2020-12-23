@@ -6,7 +6,7 @@ return(
     <div id="about" className={styling.wrapper}>
     <div className={styling.container}>
       <div className={styling.profile}>
-        <img src="myimage.jpeg" alt="profile-pic"/ >
+        <img src="myimage3.jpeg" alt="profile-pic"/ >
       </div>
       <div className={styling.details}>
 <div className={styling.heading}>

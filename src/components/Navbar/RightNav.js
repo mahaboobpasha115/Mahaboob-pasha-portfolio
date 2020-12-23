@@ -119,8 +119,8 @@ const RightNav = ({ open }) => {
       <Link smooth to="#projects">
       <li>Projects</li>
       </Link>
-      <Link smooth to="#hobbies">
-      <li>Hobbies</li>
+      <Link smooth to="#experience">
+      <li>Experience</li>
       </Link>
       <Link smooth to="#contact">
       <li>Contact</li>

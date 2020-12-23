@@ -10,6 +10,7 @@ import Contact from "./components/Contact";
 import Navbar from "./components/Navbar/Navbar";
 import Hobbies from "./components/Hobbies";
 import Footer from "./components/Footer";
+import Experience from "./components/Experience";
 
 
 
@@ -25,9 +26,12 @@ function App() {
 <Skills/>
 <Heading id="projects" h1="Projects" h6="some of the projects done by me"/>
 <Project/>
+<Heading id="experience" h1="Experience" h6="experience in this field"/>
+<Experience/>
 <Heading id="hobbies" h1="Hobbies" h6="What i do at free time"/>
 
 <Hobbies/>
+
 <Heading h1="Contact me" h6="Let us work together"/>
 
 <Contact/>

@@ -3,17 +3,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 @media (min-width: 768px) {
   .container {
     flex-direction: row;
-    justify-content: space-evenly;
-    flex-flow: wrap;
-  }
-}
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
+    padding: 2em 1em;
   }
 }

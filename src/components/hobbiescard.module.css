@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 3em 1.3em;
+  margin: 3em 0.8em;
   scrollbar-width: none;
 }
 .hobby:hover {
@@ -37,12 +37,13 @@
 }
 @media (min-width: 768px) {
   .hobby {
-    margin: 4em 2.9em;
+    margin: 4em 2.2em;
   }
 }
 @media (min-width: 1024px) {
   .icon {
     width: 6em;
     height: 6em;
+    margin: 4em 1em;
   }
 }

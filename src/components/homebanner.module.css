@@ -7,7 +7,6 @@
   flex-direction: column;
   max-width: 1200px;
   margin: 0 auto;
-  padding-top: 2em;
 }
 .landing h1 {
   font-size: 5em;
@@ -21,6 +20,17 @@
   font-size: 1.5rem;
   font-weight: 300;
   color: white;
+}
+
+@media (min-width: 360px) {
+  .landing {
+    padding-bottom: 5em;
+  }
+}
+@media (min-width: 768px) {
+  .landing{
+    padding-bottom: 0;
+}
 }
 @media (min-width: 1024px) {
   .landing h1 {

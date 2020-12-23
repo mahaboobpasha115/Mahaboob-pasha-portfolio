@@ -6,9 +6,9 @@
 
 .profile img {
   display: block;
-  width: 280px;
+  width: 90%;
   max-width: 350px;
-  height: 270px;
+  height: 300px;
   border-radius: 30px;
   margin: 2em auto;
   object-fit: cover;

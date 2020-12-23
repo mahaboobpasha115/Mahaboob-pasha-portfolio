@@ -1,8 +1,8 @@
 .mainbox {
   position: relative;
-  width: 280px;
-  height: 350px;
-  border-radius: 15px;
+  width: 300px;
+  height: 380px;
+  border-radius: 20px;
   background: #282828;
   box-shadow: 0 30px 30px rgba(0, 0, 0, 0.6);
   overflow: hidden;
@@ -58,7 +58,7 @@
 }
 .mainbox .details .info h3 {
   margin-top: 0;
-  margin-bottom:0.5em;
+  margin-bottom: 0.5em;
   color: #282828;
   font-size: 25px;
 }
