@@ -1,5 +1,4 @@
 import React from "react";
-import EducationCard from "./EducationCard";
 import styling from "./experience.module.css";
 import ExperienceCards from "./ExperienceCards";
 
