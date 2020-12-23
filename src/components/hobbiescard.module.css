@@ -6,6 +6,10 @@
   margin: 3em 1.3em;
   scrollbar-width: none;
 }
+.hobby:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.2);
+}
 
 ::-webkit-scrollbar {
   display: none;

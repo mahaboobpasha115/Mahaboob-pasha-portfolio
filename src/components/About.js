@@ -3,10 +3,10 @@ import styling from "./about.module.css";
 
 const About=()=>{
 return(
-    <div className={styling.wrapper}>
+    <div id="about" className={styling.wrapper}>
     <div className={styling.container}>
       <div className={styling.profile}>
-        <img src="myimage.JPG" alt="profile-pic"/ >
+        <img src="myimage.jpeg" alt="profile-pic"/ >
       </div>
       <div className={styling.details}>
 <div className={styling.heading}>

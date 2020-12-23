@@ -16,6 +16,7 @@
   margin: 40px auto;
 }
 
+
 .box:before {
   content: "";
   position: absolute;
@@ -39,7 +40,7 @@
 }
 .box:nth-child(1):before,
 .box:nth-child(1):after {
-  background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
+  background: linear-gradient(235deg, #89ff00, #010615, #38a097);
 }
 .box:nth-child(2):before,
 .box:nth-child(2):after {
@@ -47,7 +48,7 @@
 }
 .box:nth-child(3):before,
 .box:nth-child(3):after {
-  background: linear-gradient(235deg, #772aff, #010615, #e95fbb);
+  background: linear-gradient(235deg, #db8348, #010615, #e95fbb);
 }
 
 .box .glass {

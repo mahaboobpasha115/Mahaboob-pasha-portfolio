@@ -1,10 +1,10 @@
 import React from "react";
 import styling from "./educationcard.module.css";
 
-const EducationCard =()=>{
+const EducationCard =(props)=>{
     return(
       
-      <div className={styling.container}>
+      <div id={props.id} className={styling.container}>
         <div className={styling.box}>
         <div  className={styling.glass}></div>
         <div className={styling.content}>

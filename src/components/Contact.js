@@ -3,13 +3,13 @@ import styling from "./contact.module.css";
 
 const Contact =()=>{
     return(
-        <div className={styling.container}>
+        <div id="contact" className={styling.container}>
            <ul className={styling.icons}>
            <li className={styling.phone}>
-           <a href="https://www.linkedin.com/in/mahaboob-pasha-m-63960a1a4" className={styling.phone}><i class="fas fa-phone-alt"></i></a>
+           <a href="tel:+919611720386" className={styling.phone}><i class="fas fa-phone-alt"></i></a>
                </li>
                <li className={styling.whatsapp}>
-               <a href="https://www.linkedin.com/in/mahaboob-pasha-m-63960a1a4" className={styling.whatsapp}><i class="fab fa-whatsapp"></i></a>
+               <a href="https://wa.me/+919611720386" className={styling.whatsapp}><i class="fab fa-whatsapp"></i></a>
 
                    </li>
                <li className={styling.insta}>

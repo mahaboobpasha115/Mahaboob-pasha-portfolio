@@ -1,7 +1,7 @@
 .copyright {
   width: 100%;
   text-align: center;
-  background-color: #16162d;
+  background: #16162d;
   padding: 2rem 0;
   position: relative;
   max-width: 1440px;
@@ -51,6 +51,5 @@
     bottom: 1.1rem;
     right: 1.1rem;
   }
-  .copyright p {
-  }
+  
 }

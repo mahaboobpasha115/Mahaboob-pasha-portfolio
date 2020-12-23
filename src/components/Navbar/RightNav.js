@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+import { HashLink as Link} from "react-router-hash-link";
 
 const Ul = styled.ul`
   list-style: none;
@@ -7,17 +7,18 @@ const Ul = styled.ul`
   flex-flow: row nowrap;
   align-items:center ;
  padding-left:1em;
- max-width:1200px;
+ max-width:1440px;
  margin:0 auto;
- 
+
 
   li {
     font-size:2em;
     margin-bottom:0.5em;
+    
   }
-  li img{
-    display:none;
-  }
+ li:hover{
+   cursor: pointer;
+ }
 
   @media (max-width: 767px) {
     flex-flow: column nowrap;
@@ -34,6 +35,15 @@ const Ul = styled.ul`
     li {
       color: #fff;
     }
+    li:hover{
+      background: linear-gradient(to top, #ffe838, #fd57bf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+    }
+    li:hover{
+   cursor: pointer;
+ }
   }
 
   @media(min-width:768px){
@@ -45,12 +55,14 @@ const Ul = styled.ul`
           font-size:20px;
 
       }
-      li img{
-        display:block;
-        width:60px;
-        height:55px;
-        object-fit:contain;
-      }
+      li:hover{
+        background: linear-gradient(to top, #ffe838, #fd57bf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+    
+    }
+
       #contact{
         display:none;
       }
@@ -61,7 +73,7 @@ const Ul = styled.ul`
 li{
     color:white;
     margin-top:15px;
-    margin-right:35px;
+    margin-right:50px;
     font-size:25px;
 
 
@@ -72,7 +84,7 @@ li{
 li{
   
     margin-top:20px;
-    margin-right:40px;
+    margin-right:55px;
     font-size:30px;
 
 }
@@ -92,14 +104,28 @@ li{
 const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
-      <li><img src="MP.jpeg" alt="logo"/></li>
-     <li>Home</li>
-     <li>About</li>
-     <li>Education</li>
-     <li>Skills</li>
-     <li>Projects</li>
-     <li>Hobbies</li>
-     <li>Contact</li>
+      <Link smooth to="#home">
+      <li>Home</li>
+      </Link>
+      <Link smooth to="#about">
+      <li>About</li>
+      </Link>
+      <Link smooth to="#education">
+      <li>Education</li>
+      </Link>
+      <Link smooth to="#skills">
+      <li>Skills</li>
+      </Link>
+      <Link smooth to="#projects">
+      <li>Projects</li>
+      </Link>
+      <Link smooth to="#hobbies">
+      <li>Hobbies</li>
+      </Link>
+      <Link smooth to="#contact">
+      <li>Contact</li>
+      </Link>
+     
     </Ul>
   )
 }

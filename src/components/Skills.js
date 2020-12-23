@@ -2,9 +2,9 @@ import React from "react";
 import styling from "./skills.module.css";
 import SkillsCard from "./SkillsCard";
 
-const Skills =()=>{
+const Skills =(props)=>{
     return(
-        <div className={styling.container}>
+        <div id={props.id} className={styling.container}>
 <SkillsCard icons="fab fa-html5" h2="HTML"/>
 <SkillsCard icons="fab fa-css3-alt" h2="CSS"/>
 <SkillsCard icons="fab fa-js-square" h2="JAVASCRIPT"/>

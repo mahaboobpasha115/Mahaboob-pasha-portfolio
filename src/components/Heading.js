@@ -3,7 +3,7 @@ import styling from "./heading.module.css";
 
 const Heading =(props)=>{
     return(
-        <div class={styling.heading}>
+        <div id={props.id} class={styling.heading}>
         <h1>{props.h1}</h1>
         <h6>{props.h6}</h6>
       </div>

@@ -13,6 +13,7 @@ const ProjectCards =(props)=>{
                 <div class={styling.info}>
                     <h3>{props.h3}</h3>
                     <p>{props.p}</p>
+                    <button><a href={props.href}>Full website</a></button>
                 </div>
             </div>
         </div>
